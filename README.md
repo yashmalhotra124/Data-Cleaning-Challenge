@@ -17,4 +17,3 @@ In order to analyse the data, we need to perform data cleaning and that involves
 
 
 5.	Inconsistent Data Entry – here we use fuzzywuzzy library to check any inconsistent data in the csv file. First we sort all the values uniquely and check if there is any inconsistency. Then we use a function and replace all the inconsistent repeated values with just one value of one type. For eg- a dataset might include the data apple and APPLE and we know both are the same and still are counted as two separate values. By removing the inconsistency, it is considered and displayed as 1 unique value.
-![image](https://user-images.githubusercontent.com/58080257/178601782-9a9a89bb-20af-46e5-bb2d-3173de3023bc.png)
